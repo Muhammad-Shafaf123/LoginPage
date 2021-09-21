@@ -10,16 +10,16 @@
       <div class="form-box-main">
 
         <div class="form-box">
-            <h3>Login</h3>
-              <div class="right-form">
+            <h3 class="form-heading">Login</h3>
+              <div class="left-form">
                 <img src="images/icons8-facebook-f-48.png" alt="">
                 <img src="images/icons8-twitter-60.png" alt="">
                 <p class="note">or use your account</p>
-                <form name="userForm" action="index.html" method="post">
-                    <input type="text" name="" placeholder="Email">
-                    <input type="text" name="" placeholder="Password">
+                <form class="" method="post">
+                    <input type="text" id="Email" name="Email" placeholder="Email">
+                    <input type="text" id="Password" name="Password" placeholder="Password">
                     <p>New User? <a href="Register.html">Register</a></p>
-                    <a href="#"><button type="button" name="button">Log in</button></a>
+                    <button onclick="formValidation()" type="button" name="button">Log in</button>
                 </form>
               </div>
         </div>

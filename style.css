@@ -9,7 +9,7 @@ body{
 }
 .blank-box{
     width: 50%;
-    background: red;
+    background-image: linear-gradient(to right, #ff4929 , #fa1487);
     float: left;
     height: 660px;
     border-radius: 0px 10px 10px 0px;
@@ -18,17 +18,17 @@ body{
     width: 50%;
     float: left;
 }
-.form-box h3{
+.form-heading{
     text-align: center;
     padding: 55px 0px 56px 0px;
     font-size: xx-large;
     font-family: sans-serif;
 }
-.right-form{
+.left-form{
     text-align: center;
 
 }
-.right-form img{
+.left-form img{
     width: 33px;
     border: 1px solid #c3a8aa;
     border-radius: 23px;
@@ -46,7 +46,7 @@ input{
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 100;
-    color: #989292;s
+    color: #989292;
 }
 form p{
     font-size: small;
@@ -75,5 +75,12 @@ button{
     border-radius: 10px;
     height: 660px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+
+}
+.title-heading{
+    text-align: center;
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: red;
 }
