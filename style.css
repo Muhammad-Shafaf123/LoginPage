@@ -1,11 +1,14 @@
+/* login page */
 body{
+  padding: 0;
+  margin: 0;
+}
+.root-div-home{
     background: #f5e8e9;
-    padding:0;
-    margin:0;
-
+    font-family: sans-serif;
 }
 .container{
-    margin: 130px 130px 130px 130px;
+    padding: 130px 130px 130px 130px;
 }
 .blank-box{
     width: 50%;
@@ -20,9 +23,8 @@ body{
 }
 .form-heading{
     text-align: center;
-    padding: 55px 0px 56px 0px;
+    padding: 55px 0px 25px 0px;
     font-size: xx-large;
-    font-family: sans-serif;
 }
 .left-form{
     text-align: center;
@@ -31,15 +33,15 @@ body{
 .left-form img{
     width: 33px;
     border: 1px solid #c3a8aa;
-    border-radius: 23px;
+    border-radius: 23px;/*akfhalfkhaj*/
 }
-input{
+.input-field{
     border: 1px;
     height: 43px;
     width: 60%;
     padding: 10px 0px 8px 15px;
     box-sizing: border-box;
-    margin: 0px 0px 55px 0px;
+    margin: 0px 0px 30px 0px;
     background: #e7e6ec;
 }
 .note{
@@ -47,18 +49,19 @@ input{
     font-family: sans-serif;
     font-weight: 100;
     color: #989292;
+    padding-top: 55px;
 }
-form p{
-    font-size: small;
+.user-text{
+    font-size: 15px;
     font-family: sans-serif;
     color: #2b2b2d;
     font-weight: unset;
     padding-bottom:20px;
 }
-form a{
+.form-page-link{
     color: black;
 }
-button{
+.btn-login{
     color: #fff;
     background: #ff4929;
     height: 44px;
@@ -75,12 +78,26 @@ button{
     border-radius: 10px;
     height: 660px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+}
+/* Home page design */
+.root-home-page{
+  text-align: center;
+  font-family: sans-serif;
 }
 .title-heading{
-    text-align: center;
-    font-size: 33px;
-    font-family: sans-serif;
+    font-size: 52px;
     font-weight: bolder;
-    color: red;
+    color: #fa1487;
+    margin-top: 200px;
+}
+.start-message-text{
+    font-size: 50px;
+    font-weight: 100;
+}
+.show-timer-count{
+  color:#ff4929;
+}
+.logout-link{
+  color: #000;
+  font-size: 15px;
 }
