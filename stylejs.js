@@ -2,16 +2,19 @@
 function formValidation() {
     var Email = document.getElementById('email_address').value;
     var Password= document.getElementById('password_field').value;
+
     if (Email == "") {
-    alert("Please enter the email address.");
-    window.location="Login.html";
+      alert("Please enter the email address.");
+      window.location="index.html";
     } else if (Password=="") {
-    alert("Enter your password.");
-      window.location="Login.html";
+      alert("Enter your password.");
+      window.location="index.html";
     } else {
       window.location="home.html";
     }
 }
+
+
 /* function for counting, when the user login */
 function startCounter(){
     let seconds = 10;
